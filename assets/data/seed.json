@@ -1,0 +1,99 @@
+{
+  "products": [
+    {
+      "id": "p_coconut",
+      "code": "JD022123",
+      "name": "Coconut Donut",
+      "price_mmk": 3200,
+      "is_new": true,
+      "discount_percent": null,
+      "image": "donut_2.jpg",
+      "imageUrl": "https://en.wikipedia.org/wiki/Coconut_doughnut#/media/File:Peter-Pan-Bakery-Donut-Toasted-Coconut.jpg",
+      "description": "Enjoy our scrumptious donuts with coconut glaze and a soft, delicious center."
+    },
+    {
+      "id": "p_strawberry",
+      "code": "JD022124",
+      "name": "Strawberry Chocolate Donut",
+      "price_mmk": 3500,
+      "is_new": false,
+      "discount_percent": 10,
+      "image": "donut_1.jpg",
+      "description": "A sweet strawberry glaze with colorful sprinkles."
+    },
+    {
+      "id": "p_chocolate",
+      "code": "JD022125",
+      "name": "Chocolate Donut",
+      "price_mmk": 3000,
+      "is_new": false,
+      "discount_percent": null,
+      "image": "donut_3.jpg",
+      "description": "A classic chocolate glazed donut."
+    },
+    {
+      "id": "p_purple",
+      "code": "JD022126",
+      "name": "Blueberry Donut",
+      "price_mmk": 3700,
+      "is_new": true,
+      "discount_percent": null,
+      "image": "donut_4.jpg",
+      "description": "Fluffy donut with blueberry frosting."
+    },
+    {
+      "id": "p_coffee",
+      "code": "JD022127",
+      "name": "Caramel Donut",
+      "price_mmk": 3300,
+      "is_new": false,
+      "discount_percent": 15,
+      "image": "donut_5.jpg",
+      "description": "Soft caramel glazed treat."
+    }
+  ],
+  "member": {
+    "name": "Hanla",
+    "tier": "Silver",
+    "points": 680000,
+    "points_to_gold": 500
+  },
+  "shops": [
+    {
+      "name": "Myanmar Plaza J\u2019Donuts",
+      "location": "No. 45, Pyay Road, Sanchaung Township, Yangon 11181, Myanmar"
+    },
+    {
+      "name": "Junction City J\u2019Donuts",
+      "location": "No. 45, Pyay Road, Sanchaung Township, Yangon 11181, Myanmar"
+    },
+    {
+      "name": "City Mall J\u2019Donuts",
+      "location": "No. 45, Pyay Road, Sanchaung Township, Yangon 11181, Myanmar"
+    },
+    {
+      "name": "Hledan J\u2019Donuts",
+      "location": "No. 45, Pyay Road, Sanchaung Township, Yangon 11181, Myanmar"
+    }
+  ],
+  "challenges": [
+    {
+      "title": "Buy 4 any donuts",
+      "current": 4,
+      "target": 4,
+      "image": "assets/images/challenge_donut.png"
+    },
+    {
+      "title": "Eat 4 Coco donuts",
+      "current": 3,
+      "target": 4,
+      "image": "assets/images/challenge_donut.png"
+    },
+    {
+      "title": "Drink 12 cups americano",
+      "current": 9,
+      "target": 12,
+      "image": "assets/images/challenge_coffee.png"
+    }
+  ]
+}
