@@ -45,7 +45,7 @@ class _RewardsPageState extends ConsumerState<RewardsPage>
                       child: const Text(
                         'J’ Donuts Rewards',
                         style: TextStyle(
-                          fontSize: 25,
+                          fontSize: 20,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -54,7 +54,7 @@ class _RewardsPageState extends ConsumerState<RewardsPage>
                     Container(
                       margin: const EdgeInsets.only(left: 24, top: 24),
                       padding: EdgeInsets.only(
-                          left: 14, top: 12, bottom: 12, right: 4),
+                          left: 10, top: 10, bottom: 10, right: 2),
                       decoration: BoxDecoration(
                           color: Colors.orangeAccent.shade700,
                           borderRadius: BorderRadius.only(
@@ -66,7 +66,7 @@ class _RewardsPageState extends ConsumerState<RewardsPage>
                             'Rewards',
                             style: TextStyle(
                               color: Colors.white,
-                              fontSize: 18,
+                              fontSize: 16,
                               fontWeight: FontWeight.w500,
                             ),
                           ),
@@ -81,7 +81,7 @@ class _RewardsPageState extends ConsumerState<RewardsPage>
                                 '3',
                                 style: TextStyle(
                                   color: Colors.black,
-                                  fontSize: 18,
+                                  fontSize: 16,
                                   fontWeight: FontWeight.w500,
                                 ),
                               ),
@@ -291,7 +291,7 @@ class _RewardsPageState extends ConsumerState<RewardsPage>
                     NumberFormatUtil.formatInt(
                         ((reduce ? 1 : animation.value) * 680000).round()),
                     style: const TextStyle(
-                        fontSize: 29,
+                        fontSize: 18,
                         fontWeight: FontWeight.w900,
                         color: Palette.pink))
               ],
